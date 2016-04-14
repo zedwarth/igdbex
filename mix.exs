@@ -28,7 +28,8 @@ defmodule Igdbex.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:httpoison, "~> 0.8.0"},
+    [{:credo, "~> 0.3", only: [:dev, :test]},
+     {:httpoison, "~> 0.8.0"},
      {:poison, "~> 2.0"}]
   end
 end
