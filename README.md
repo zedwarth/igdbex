@@ -1,20 +1,5 @@
 # Igdbex
 
-**TODO: Add description**
+[![Build Status](https://travis-ci.org/zedwarth/igdbex.svg?branch=master)](https://travis-ci.org/zedwarth/igdbex)
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add igdbex to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:igdbex, "~> 0.0.1"}]
-        end
-
-  2. Ensure igdbex is started before your application:
-
-        def application do
-          [applications: [:igdbex]]
-        end
-
+An elixir wrapper for the [IGDB API](https://www.igdb.com/api/v1/documentation).
