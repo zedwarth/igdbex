@@ -7,7 +7,12 @@ defmodule Igdbex.Mixfile do
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps]
+     deps: deps,
+     test_coverage: [tool: ExCoveralls],
+     preferred_cli_env: ["coveralls": :test,
+                         "coveralls.detail": :test,
+                         "coveralls.post": :test,
+                         "coveralls.html": :test]]
   end
 
   # Configuration for the OTP application
@@ -28,7 +33,8 @@ defmodule Igdbex.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:credo, "~> 0.3", only: [:dev, :test]},
+    [{:excoveralls, "~> 0.5.2", only: [:dev, :test]},
+     {:credo, "~> 0.3", only: [:dev, :test]},
      {:httpoison, "~> 0.8.0"},
      {:poison, "~> 2.0"}]
   end
