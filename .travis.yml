@@ -3,3 +3,6 @@ elixir:
   - 1.2.4
 script: 
   - "MIX_ENV=test mix do deps.get, compile, coveralls.travis"
+after_script:
+  - MIX_ENV=docs mix deps.get
+  - MIX_ENV=docs mix inch.report
