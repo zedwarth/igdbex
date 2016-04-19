@@ -36,6 +36,7 @@ defmodule Igdbex.Mixfile do
     [{:excoveralls, "~> 0.5.2", only: [:dev, :test]},
      {:credo, "~> 0.3", only: [:dev, :test]},
      {:httpoison, "~> 0.8.0"},
+     {:inch_ex, "~> 0.5.1", only: :docs},
      {:poison, "~> 2.0"}]
   end
 end
