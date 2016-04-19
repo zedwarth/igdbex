@@ -3,7 +3,7 @@ defmodule Igdbex.Games do
   Make request under the `https://www.igdb.com/api/v1/games` resource.
   """
 
-  import Igdbex.Base
+  import Igdbex
 
   def games do
     get("games")
