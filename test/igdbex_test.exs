@@ -11,10 +11,13 @@ defmodule IgdbexTest do
   end
 
   test "process_request_headers/1 with empty list" do
+    # `mix clean` if this test fails
+    key = Application.get_env(:igdbex, :api_key) 
     headers = process_request_headers([])
-    expected = [{"Authorization", "Token token=\"5upp3r-53cr3t-k3y\""}]
+    expected = [{"Authorization", "Token token=\"#{key}\""}]
     assert headers == expected
   end
+
   test "process_response_body/1" do
     body = process_response_body(~s({"someProperty": "some value"}))
     expected = %{"someProperty" => "some value"}

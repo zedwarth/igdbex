@@ -1,0 +1,39 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Authorization": "5upp3r-53cr3t-k3y"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://www.igdb.com/api/v1/games/search?q=bloodborne"
+    },
+    "response": {
+      "body": "{\"games\":[{\"id\":7334,\"name\":\"Bloodborne\",\"slug\":\"bloodborne\",\"release_date\":\"2015-03-24\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/fivw1ogfjw266t72kcn2.png\",\"cover_id\":\"fivw1ogfjw266t72kcn2\"},{\"id\":14647,\"name\":\"Bloodborne: The Old Hunters\",\"slug\":\"bloodborne-the-old-hunters--1\",\"release_date\":\"2015-11-24\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/nyykth4jpiml5fvulxlh.png\",\"cover_id\":\"nyykth4jpiml5fvulxlh\"}]}",
+      "headers": {
+        "Server": "cloudflare-nginx",
+        "Date": "Wed, 20 Apr 2016 02:59:55 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=dbd470142cfbb4ed8f440d8c830a55fb11461121194; expires=Thu, 20-Apr-17 02:59:54 GMT; path=/; domain=.igdb.com; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"b696fa4e68fe7c2a0733c359603cd727\"",
+        "Cache-Control": "must-revalidate, private, max-age=0",
+        "X-Request-Id": "34508750-363f-4a37-99e0-b536f0de30ae",
+        "X-Runtime": "0.746249",
+        "X-Rack-Cache": "miss",
+        "Vary": "Accept-Encoding",
+        "Via": "1.1 vegur",
+        "Strict-Transport-Security": "max-age=15552000; preload",
+        "CF-RAY": "296557cb1490086e-IAD"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

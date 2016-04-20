@@ -34,6 +34,7 @@ defmodule Igdbex.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [{:excoveralls, "~> 0.5.2", only: [:dev, :test]},
+     {:exvcr, "~> 0.7", only: [:dev, :test]},
      {:credo, "~> 0.3", only: [:dev, :test]},
      {:httpoison, "~> 0.8.0"},
      {:inch_ex, "~> 0.5.1", only: :docs},

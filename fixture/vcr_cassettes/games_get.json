@@ -1,0 +1,39 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Authorization": "5upp3r-53cr3t-k3y"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://www.igdb.com/api/v1/games"
+    },
+    "response": {
+      "body": "{\"games\":[{\"id\":1,\"name\":\"Thief II: The Metal Age\",\"slug\":\"thief-ii-the-metal-age\",\"release_date\":\"2000-03-21\",\"alternative_name\":null},{\"id\":2,\"name\":\"Thief: The Dark Project\",\"slug\":\"thief-the-dark-project\",\"release_date\":\"1998-11-30\",\"alternative_name\":null},{\"id\":3,\"name\":\"Thief: Deadly Shadows\",\"slug\":\"thief-deadly-shadows\",\"release_date\":\"2004-05-25\",\"alternative_name\":null},{\"id\":4,\"name\":\"Thief\",\"slug\":\"thief\",\"release_date\":\"2014-02-25\",\"alternative_name\":\"Thief 4\"},{\"id\":5,\"name\":\"Baldur's Gate\",\"slug\":\"baldur-s-gate\",\"release_date\":\"1998-11-30\",\"alternative_name\":null},{\"id\":6,\"name\":\"Baldur's Gate II: Shadows Of Amn\",\"slug\":\"baldur-s-gate-ii-shadows-of-amn\",\"release_date\":\"2000-09-24\",\"alternative_name\":null},{\"id\":7,\"name\":\"Jagged Alliance\",\"slug\":\"jagged-alliance\",\"release_date\":\"1994-06-02\",\"alternative_name\":null},{\"id\":8,\"name\":\"Jagged Alliance: Deadly Games\",\"slug\":\"jagged-alliance-deadly-games\",\"release_date\":\"1995-01-01\",\"alternative_name\":null},{\"id\":9,\"name\":\"Jagged Alliance 2\",\"slug\":\"jagged-alliance-2\",\"release_date\":\"1999-07-23\",\"alternative_name\":null},{\"id\":10,\"name\":\"Jade Empire: Special Edition\",\"slug\":\"jade-empire-special-edition\",\"release_date\":\"2005-04-12\",\"alternative_name\":null},{\"id\":11,\"name\":\"Vampire: The Masquerade - Bloodlines\",\"slug\":\"vampire-the-masquerade-bloodlines\",\"release_date\":\"2004-11-16\",\"alternative_name\":null},{\"id\":12,\"name\":\"Vampire: The Masquerade - Redemption\",\"slug\":\"vampire-the-masquerade-redemption\",\"release_date\":\"2000-06-07\",\"alternative_name\":null},{\"id\":13,\"name\":\"Fallout\",\"slug\":\"fallout\",\"release_date\":\"1997-09-30\",\"alternative_name\":null},{\"id\":14,\"name\":\"Fallout 2\",\"slug\":\"fallout-2\",\"release_date\":\"1998-09-30\",\"alternative_name\":null},{\"id\":15,\"name\":\"Fallout 3\",\"slug\":\"fallout-3\",\"release_date\":\"2008-10-28\",\"alternative_name\":null},{\"id\":16,\"name\":\"Fallout: New Vegas\",\"slug\":\"fallout-new-vegas\",\"release_date\":\"2010-10-19\",\"alternative_name\":null},{\"id\":17,\"name\":\"Fallout Tactics: Brotherhood Of Steel\",\"slug\":\"fallout-tactics-brotherhood-of-steel\",\"release_date\":\"2001-03-15\",\"alternative_name\":null},{\"id\":18,\"name\":\"Max Payne\",\"slug\":\"max-payne\",\"release_date\":\"2001-07-23\",\"alternative_name\":null},{\"id\":19,\"name\":\"Max Payne 2: The Fall Of Max Payne\",\"slug\":\"max-payne-2-the-fall-of-max-payne\",\"release_date\":\"2003-10-24\",\"alternative_name\":null},{\"id\":20,\"name\":\"BioShock\",\"slug\":\"bioshock\",\"release_date\":\"2007-08-21\",\"alternative_name\":null},{\"id\":21,\"name\":\"BioShock 2\",\"slug\":\"bioshock-2\",\"release_date\":\"2010-02-09\",\"alternative_name\":null},{\"id\":22,\"name\":\"System Shock 2\",\"slug\":\"system-shock-2\",\"release_date\":\"1999-08-11\",\"alternative_name\":null},{\"id\":23,\"name\":\"System Shock\",\"slug\":\"system-shock\",\"release_date\":\"1994-09-22\",\"alternative_name\":null},{\"id\":24,\"name\":\"UFO: Enemy Unknown\",\"slug\":\"ufo-enemy-unknown--1\",\"release_date\":\"1994-01-01\",\"alternative_name\":null},{\"id\":25,\"name\":\"X-COM: Terror From The Deep\",\"slug\":\"x-com-terror-from-the-deep\",\"release_date\":\"1995-01-01\",\"alternative_name\":null}]}",
+      "headers": {
+        "Server": "cloudflare-nginx",
+        "Date": "Tue, 19 Apr 2016 19:47:12 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=db8937e46f3aa4412e50a13b3f69e986a1461095232; expires=Wed, 19-Apr-17 19:47:12 GMT; path=/; domain=.igdb.com; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"9493edaa4615420671a61bb5963e5b34\"",
+        "Cache-Control": "must-revalidate, private, max-age=0",
+        "X-Request-Id": "081e48cd-4845-4412-abf1-5fd9ec2c7841",
+        "X-Runtime": "0.135690",
+        "X-Rack-Cache": "miss",
+        "Vary": "Accept-Encoding",
+        "Via": "1.1 vegur",
+        "Strict-Transport-Security": "max-age=15552000; preload",
+        "CF-RAY": "2962ddf1c14c2414-IAD"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

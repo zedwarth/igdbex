@@ -4,6 +4,12 @@ use Mix.Config
 
 config :igdbex, api_key: System.get_env("IGDB_KEY")
 
+config :exvcr, [
+  filter_sensitive_data: [
+    [pattern: "Token token=\".+\"", placeholder: "5upp3r-53cr3t-k3y"]
+  ]
+]
+
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
 # file won't be loaded nor affect the parent project. For this reason,
@@ -29,4 +35,4 @@ config :igdbex, api_key: System.get_env("IGDB_KEY")
 # Configuration from the imported file will override the ones defined
 # here (which is why it is important to import them last).
 #
-import_config "#{Mix.env}.exs"
+# import_config "#{Mix.env}.exs"
