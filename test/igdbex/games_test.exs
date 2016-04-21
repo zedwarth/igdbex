@@ -16,6 +16,33 @@ defmodule Igdbex.GamesTest do
     end
   end
 
+  test "games/1 with offset" do
+    use_cassette "games_with_offset_get" do
+      query = [offset: 25]
+      {:ok, %HTTPoison.Response{body: body}} = games(query)
+      twenty_sixth_game_id = List.first(body["games"])["id"]
+      assert twenty_sixth_game_id == 26
+    end
+  end
+
+  test "games/1 with limit" do
+    use_cassette "games_with_limit_get" do
+      query = [limit: 10]
+      {:ok, %HTTPoison.Response{body: body}} = games(query)
+      tenth_game_id  = List.last(body["games"])["id"]
+      assert tenth_game_id == 10
+    end
+  end
+
+  test "games/1 with offset and limit" do
+    use_cassette "games_with_offset_and_limit_get" do
+      query = [offset: 10, limit: 10]
+      {:ok, %HTTPoison.Response{body: body}} = games(query)
+      twentith_game_id  = List.last(body["games"])["id"]
+      assert twentith_game_id == 20
+    end
+  end
+
   test "meta/0" do
     use_cassette "games_meta_get" do
       {:ok, %HTTPoison.Response{body: body}} = meta

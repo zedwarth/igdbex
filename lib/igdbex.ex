@@ -22,6 +22,24 @@ defmodule Igdbex do
     Supervisor.start_link(children, opts)
   end
 
+  @doc """
+  Takes a tuple representing a query and returns the string to be appended
+  to a request.
+
+  ## Example
+    iex> Igdbex.parse_query({:offset, 26})
+    "&offset=26"
+
+    iex> Igdbex.parse_query({:powerlevel, "Over Nine Thousand"})
+    "&powerlevel=Over+Nine+Thousand"
+  """
+  def parse_query({key, value}) do
+    value = value
+            |> to_string
+            |> String.replace(" ", "+")
+
+    "&#{key}=#{value}"
+  end
 
   @endpoint "https://www.igdb.com/api/v1/"
   @key Application.get_env(:igdbex, :api_key)

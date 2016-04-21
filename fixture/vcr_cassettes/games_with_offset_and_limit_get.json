@@ -1,0 +1,39 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Authorization": "5upp3r-53cr3t-k3y"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://www.igdb.com/api/v1/games?offset=10&limit=10"
+    },
+    "response": {
+      "body": "{\"games\":[{\"id\":11,\"name\":\"Vampire: The Masquerade - Bloodlines\",\"slug\":\"vampire-the-masquerade-bloodlines\",\"release_date\":\"2004-11-16\",\"alternative_name\":null},{\"id\":12,\"name\":\"Vampire: The Masquerade - Redemption\",\"slug\":\"vampire-the-masquerade-redemption\",\"release_date\":\"2000-06-07\",\"alternative_name\":null},{\"id\":13,\"name\":\"Fallout\",\"slug\":\"fallout\",\"release_date\":\"1997-09-30\",\"alternative_name\":null},{\"id\":14,\"name\":\"Fallout 2\",\"slug\":\"fallout-2\",\"release_date\":\"1998-09-30\",\"alternative_name\":null},{\"id\":15,\"name\":\"Fallout 3\",\"slug\":\"fallout-3\",\"release_date\":\"2008-10-28\",\"alternative_name\":null},{\"id\":16,\"name\":\"Fallout: New Vegas\",\"slug\":\"fallout-new-vegas\",\"release_date\":\"2010-10-19\",\"alternative_name\":null},{\"id\":17,\"name\":\"Fallout Tactics: Brotherhood Of Steel\",\"slug\":\"fallout-tactics-brotherhood-of-steel\",\"release_date\":\"2001-03-15\",\"alternative_name\":null},{\"id\":18,\"name\":\"Max Payne\",\"slug\":\"max-payne\",\"release_date\":\"2001-07-23\",\"alternative_name\":null},{\"id\":19,\"name\":\"Max Payne 2: The Fall Of Max Payne\",\"slug\":\"max-payne-2-the-fall-of-max-payne\",\"release_date\":\"2003-10-24\",\"alternative_name\":null},{\"id\":20,\"name\":\"BioShock\",\"slug\":\"bioshock\",\"release_date\":\"2007-08-21\",\"alternative_name\":null}]}",
+      "headers": {
+        "Server": "cloudflare-nginx",
+        "Date": "Thu, 21 Apr 2016 04:26:13 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d08af4c443d16802a78f6271b5e2a5e941461212773; expires=Fri, 21-Apr-17 04:26:13 GMT; path=/; domain=.igdb.com; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"57a2797aed7c0d62761495ad6ed48826\"",
+        "Cache-Control": "must-revalidate, private, max-age=0",
+        "X-Request-Id": "97e5062b-4dd8-41cf-8227-f6739a602c0c",
+        "X-Runtime": "0.077147",
+        "X-Rack-Cache": "miss",
+        "Vary": "Accept-Encoding",
+        "Via": "1.1 vegur",
+        "Strict-Transport-Security": "max-age=15552000; preload",
+        "CF-RAY": "296e1399ad8b0f21-IAD"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

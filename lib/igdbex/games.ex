@@ -5,8 +5,18 @@ defmodule Igdbex.Games do
 
   import Igdbex
 
+  @prefix "games"
+
   def games do
     get("games")
+  end
+
+  def games(query_params) do
+    query_params
+    |> Enum.map(&parse_query/1)
+    |> Enum.reduce(fn(x, acc) -> acc <> x end)
+    |> String.replace_prefix("&", @prefix <> "?")
+    |> get
   end
 
   def meta do

@@ -1,0 +1,39 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Authorization": "5upp3r-53cr3t-k3y"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://www.igdb.com/api/v1/games?offset=25"
+    },
+    "response": {
+      "body": "{\"games\":[{\"id\":26,\"name\":\"X-COM: Apocalypse\",\"slug\":\"x-com-apocalypse\",\"release_date\":\"1997-06-30\",\"alternative_name\":null},{\"id\":27,\"name\":\"X-COM: Interceptor\",\"slug\":\"x-com-interceptor\",\"release_date\":\"1998-05-31\",\"alternative_name\":null},{\"id\":28,\"name\":\"Space Quest: The Sarien Encounter\",\"slug\":\"space-quest-the-sarien-encounter\",\"release_date\":\"1986-12-31\",\"alternative_name\":null},{\"id\":29,\"name\":\"Space Quest II: Vohaul's Revenge\",\"slug\":\"space-quest-ii-vohaul-s-revenge\",\"release_date\":\"1987-11-14\",\"alternative_name\":null},{\"id\":30,\"name\":\"Space Quest III: The Pirates Of Pestulon\",\"slug\":\"space-quest-iii-the-pirates-of-pestulon\",\"release_date\":\"1989-01-01\",\"alternative_name\":null},{\"id\":31,\"name\":\"Space Quest IV: Roger Wilco And The Time Rippers\",\"slug\":\"space-quest-iv-roger-wilco-and-the-time-rippers\",\"release_date\":\"1991-01-01\",\"alternative_name\":null},{\"id\":32,\"name\":\"Space Quest V: The Next Mutation\",\"slug\":\"space-quest-v-the-next-mutation\",\"release_date\":\"1993-01-01\",\"alternative_name\":null},{\"id\":33,\"name\":\"Space Quest 6: The Spinal Frontier\",\"slug\":\"space-quest-6-the-spinal-frontier\",\"release_date\":\"1995-01-01\",\"alternative_name\":null},{\"id\":34,\"name\":\"Giants: Citizen Kabuto\",\"slug\":\"giants-citizen-kabuto\",\"release_date\":\"2000-12-06\",\"alternative_name\":null},{\"id\":35,\"name\":\"Dungeon Keeper\",\"slug\":\"dungeon-keeper\",\"release_date\":\"1997-06-26\",\"alternative_name\":null},{\"id\":36,\"name\":\"Dungeon Keeper 2\",\"slug\":\"dungeon-keeper-2\",\"release_date\":\"1999-06-30\",\"alternative_name\":null},{\"id\":37,\"name\":\"Dead Space\",\"slug\":\"dead-space\",\"release_date\":\"2008-10-14\",\"alternative_name\":null},{\"id\":38,\"name\":\"Dead Space 2\",\"slug\":\"dead-space-2\",\"release_date\":\"2011-01-25\",\"alternative_name\":null},{\"id\":39,\"name\":\"Mafia\",\"slug\":\"mafia\",\"release_date\":\"2002-08-28\",\"alternative_name\":null},{\"id\":40,\"name\":\"Mafia II\",\"slug\":\"mafia-ii\",\"release_date\":\"2010-08-24\",\"alternative_name\":null},{\"id\":41,\"name\":\"Deus Ex\",\"slug\":\"deus-ex\",\"release_date\":\"2000-06-26\",\"alternative_name\":null},{\"id\":42,\"name\":\"Deus Ex: Invisible War\",\"slug\":\"deus-ex-invisible-war\",\"release_date\":\"2003-12-02\",\"alternative_name\":null},{\"id\":43,\"name\":\"Deus Ex: Human Revolution\",\"slug\":\"deus-ex-human-revolution\",\"release_date\":\"2011-08-23\",\"alternative_name\":null},{\"id\":44,\"name\":\"Overlord\",\"slug\":\"overlord\",\"release_date\":\"2007-06-26\",\"alternative_name\":null},{\"id\":45,\"name\":\"Overlord: Raising Hell\",\"slug\":\"overlord-raising-hell\",\"release_date\":\"2008-02-15\",\"alternative_name\":null},{\"id\":46,\"name\":\"Overlord II\",\"slug\":\"overlord-ii\",\"release_date\":\"2009-06-23\",\"alternative_name\":null},{\"id\":47,\"name\":\"Overlord: Dark Legend\",\"slug\":\"overlord-dark-legend\",\"release_date\":\"2009-06-23\",\"alternative_name\":null},{\"id\":48,\"name\":\"Overlord: Minions\",\"slug\":\"overlord-minions\",\"release_date\":\"2009-06-23\",\"alternative_name\":null},{\"id\":49,\"name\":\"Syndicate\",\"slug\":\"syndicate--2\",\"release_date\":\"1993-01-01\",\"alternative_name\":null},{\"id\":50,\"name\":\"Syndicate: American Revolt\",\"slug\":\"syndicate-american-revolt\",\"release_date\":\"1993-01-01\",\"alternative_name\":null}]}",
+      "headers": {
+        "Server": "cloudflare-nginx",
+        "Date": "Thu, 21 Apr 2016 04:26:12 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d44b435371e9b9b14019eb3c45a5582ac1461212772; expires=Fri, 21-Apr-17 04:26:12 GMT; path=/; domain=.igdb.com; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"70b2c1d186f012623ec57bc58c0ccb3b\"",
+        "Cache-Control": "must-revalidate, private, max-age=0",
+        "X-Request-Id": "b2d4736a-2903-46b9-8744-54ba62d2c253",
+        "X-Runtime": "0.157847",
+        "X-Rack-Cache": "miss",
+        "Vary": "Accept-Encoding",
+        "Via": "1.1 vegur",
+        "Strict-Transport-Security": "max-age=15552000; preload",
+        "CF-RAY": "296e1395dd700f21-IAD"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
