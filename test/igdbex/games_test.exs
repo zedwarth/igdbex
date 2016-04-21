@@ -57,6 +57,24 @@ defmodule Igdbex.GamesTest do
     end
   end
 
+  test "search/1 with filter" do
+    use_cassette "games_search_with_filter" do
+      query_params = [q: "Assassin's Creed", filter: {"platforms.id_eq", 48}]
+      {:ok, %HTTPoison.Response{body: body}} = search(query_params)
+      game = List.first(body["games"])["name"]
+      assert game == "Assassin's Creed: Syndicate"
+    end
+  end
+
+  test "search/1 with filters" do
+    use_cassette "games_search_with_filters" do
+      query_params = [filter: {"platforms.id_eq", 78}, filter: {"ratings_gt", 8}]
+      {:ok, %HTTPoison.Response{body: body}} = search(query_params)
+      game = List.first(body["games"])["name"]
+      assert game == "Wing Commander"
+    end
+  end
+
   test "search/1" do
     use_cassette "games_search_get" do
       {:ok, %HTTPoison.Response{body: body}} = search("bloodborne")

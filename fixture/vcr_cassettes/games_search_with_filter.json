@@ -1,0 +1,39 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Authorization": "5upp3r-53cr3t-k3y"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://www.igdb.com/api/v1/games/search?q=Assassin's+Creed&filters[platforms.id_eq]=48"
+    },
+    "response": {
+      "body": "{\"games\":[{\"id\":8263,\"name\":\"Assassin's Creed: Syndicate\",\"slug\":\"assassins-creed-syndicate\",\"release_date\":\"2015-10-23\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/ksyrddwko3ijl6b4ap6n.png\",\"cover_id\":\"ksyrddwko3ijl6b4ap6n\"},{\"id\":5606,\"name\":\"Assassin's Creed: Unity\",\"slug\":\"assassin-s-creed-unity\",\"release_date\":\"2014-11-13\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/bxpaudrrf9oknliqdzlq.png\",\"cover_id\":\"bxpaudrrf9oknliqdzlq\"},{\"id\":1970,\"name\":\"Assassin's Creed IV: Black Flag\",\"slug\":\"assassin-s-creed-iv-black-flag\",\"release_date\":\"2013-10-29\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/y36nb2wbkrvzezyelz6a.png\",\"cover_id\":\"y36nb2wbkrvzezyelz6a\"},{\"id\":15169,\"name\":\"Assassin's Creed: Syndicate: Jack The Ripper\",\"slug\":\"assassins-creed-syndicate-jack-the-ripper\",\"release_date\":\"2015-12-15\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/kfywrcijboxctpoo7px3.png\",\"cover_id\":\"kfywrcijboxctpoo7px3\"},{\"id\":14902,\"name\":\"Assassin’s Creed Chronicles: India\",\"slug\":\"assassins-creed-chronicles-india\",\"release_date\":\"2016-01-12\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/a52esw8wroskjgbpgulp.png\",\"cover_id\":\"a52esw8wroskjgbpgulp\"},{\"id\":14903,\"name\":\"Assassin’s Creed Chronicles: Russia\",\"slug\":\"assassins-creed-chronicles-russia\",\"release_date\":\"2016-02-09\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/wyrfsyqpth0xvyaebto6.png\",\"cover_id\":\"wyrfsyqpth0xvyaebto6\"},{\"id\":8223,\"name\":\"Assassin’s Creed Chronicles: China\",\"slug\":\"assassins-creed-chronicles-china--1\",\"release_date\":\"2015-04-21\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/ti2pjmmx41lu6mhttioz.png\",\"cover_id\":\"ti2pjmmx41lu6mhttioz\"}]}",
+      "headers": {
+        "Server": "cloudflare-nginx",
+        "Date": "Thu, 21 Apr 2016 18:13:20 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d49224f29c7c794c6af4c030e7178f2aa1461262397; expires=Fri, 21-Apr-17 18:13:17 GMT; path=/; domain=.igdb.com; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"654d189b27a3cfc01ed77b03175daade\"",
+        "Cache-Control": "must-revalidate, private, max-age=0",
+        "X-Request-Id": "cce3d7e4-30bb-4a3c-a46b-239b309f57a6",
+        "X-Runtime": "2.441508",
+        "X-Rack-Cache": "miss",
+        "Vary": "Accept-Encoding",
+        "Via": "1.1 vegur",
+        "Strict-Transport-Security": "max-age=15552000; preload",
+        "CF-RAY": "2972cf2044370868-IAD"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

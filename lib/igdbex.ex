@@ -23,6 +23,25 @@ defmodule Igdbex do
   end
 
   @doc """
+  When the query is a filter, takes a tuple representing a query and returns
+  the string to be appended to a request.
+
+  ## Example
+  iex> Igdbex.parse_query({:filter, {"ratings_gt", 6}})
+  "&filters[ratings_gt]=6"
+
+  iex> Igdbex.parse_query({:filter, {"platforms.id_eq", 70})
+  "filters[platforms.id_eq]=70"
+  """
+  def parse_query({:filter, {filter, value}}) do
+    value = value
+            |> to_string
+            |> String.replace(" ", "+")
+
+    "&filters[#{filter}]=#{value}"
+  end
+
+  @doc """
   Takes a tuple representing a query and returns the string to be appended
   to a request.
 

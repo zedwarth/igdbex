@@ -1,0 +1,39 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Authorization": "5upp3r-53cr3t-k3y"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://www.igdb.com/api/v1/games/search?filters[platforms.id_eq]=78&filters[ratings_gt]=8"
+    },
+    "response": {
+      "body": "{\"games\":[{\"id\":924,\"name\":\"Wing Commander\",\"slug\":\"wing-commander\",\"release_date\":\"1990-01-01\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/xkn7w3ip3zzzjiw0efdk.png\",\"cover_id\":\"xkn7w3ip3zzzjiw0efdk\"},{\"id\":2503,\"name\":\"Dungeon Master II: The Legend of Skullkeep\",\"slug\":\"dungeon-master-ii-the-legend-of-skullkeep\",\"release_date\":\"1994-03-25\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/q08wli0lapq43ppfuupa.png\",\"cover_id\":\"q08wli0lapq43ppfuupa\"},{\"id\":2486,\"name\":\"Night Trap\",\"slug\":\"night-trap\",\"release_date\":\"1992-10-15\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/cml9h1vndqam1vkmwwyx.png\",\"cover_id\":\"cml9h1vndqam1vkmwwyx\"},{\"id\":5372,\"name\":\"Corpse Killer\",\"slug\":\"corpse-killer\",\"release_date\":\"1994-12-31\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/gklibj97ogxcizrf3o49.png\",\"cover_id\":\"gklibj97ogxcizrf3o49\"},{\"id\":5373,\"name\":\"Crime Patrol\",\"slug\":\"crime-patrol\",\"release_date\":\"1993-12-31\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/dmx8deq0mvdx8cswymbg.png\",\"cover_id\":\"dmx8deq0mvdx8cswymbg\"},{\"id\":5375,\"name\":\"Double Switch\",\"slug\":\"double-switch\",\"release_date\":\"1993-12-31\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/bpinsttrc0jpe3hcf3jd.png\",\"cover_id\":\"bpinsttrc0jpe3hcf3jd\"},{\"id\":5409,\"name\":\"Panic!\",\"slug\":\"panic\",\"release_date\":\"1993-04-23\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/cbhthpgb6bejcuge9pzx.png\",\"cover_id\":\"cbhthpgb6bejcuge9pzx\"},{\"id\":5424,\"name\":\"Prize Fighter\",\"slug\":\"prize-fighter\",\"release_date\":\"1993-12-31\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/iyxwvozz3b4g4k4zda3y.png\",\"cover_id\":\"iyxwvozz3b4g4k4zda3y\"},{\"id\":5439,\"name\":\"Slam City with Scottie Pippen\",\"slug\":\"slam-city-with-scottie-pippen\",\"release_date\":\"1994-11-01\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/ptgm9sxostk1asrskvhi.png\",\"cover_id\":\"ptgm9sxostk1asrskvhi\"},{\"id\":5451,\"name\":\"Snatcher\",\"slug\":\"snatcher\",\"release_date\":\"1988-11-26\",\"cover\":\"http://res.cloudinary.com/igdb/image/upload/t_thumb/zuroqlqmzyvy5r0yjshw.png\",\"cover_id\":\"zuroqlqmzyvy5r0yjshw\"}]}",
+      "headers": {
+        "Server": "cloudflare-nginx",
+        "Date": "Thu, 21 Apr 2016 18:26:35 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d9712a26611d34576ec11acea24a007c51461263195; expires=Fri, 21-Apr-17 18:26:35 GMT; path=/; domain=.igdb.com; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"cbb7e576b0fa33539210f074dd661337\"",
+        "Cache-Control": "must-revalidate, private, max-age=0",
+        "X-Request-Id": "c1f5c8e8-6ff6-40d3-8583-f8364cee92b6",
+        "X-Runtime": "0.292112",
+        "X-Rack-Cache": "miss",
+        "Vary": "Accept-Encoding",
+        "Via": "1.1 vegur",
+        "Strict-Transport-Security": "max-age=15552000; preload",
+        "CF-RAY": "2972e298f6e423f6-IAD"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
