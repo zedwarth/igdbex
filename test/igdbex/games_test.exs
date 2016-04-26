@@ -16,6 +16,14 @@ defmodule Igdbex.GamesTest do
     end
   end
 
+  test "games/1 with empty list" do
+    use_cassette "games_get" do
+      {:ok, %HTTPoison.Response{body: body}} = games([])
+      first_game_id = List.first(body["games"])["id"]
+      assert first_game_id == 1
+    end
+  end
+
   test "games/1 with offset" do
     use_cassette "games_with_offset_get" do
       query = [offset: 25]

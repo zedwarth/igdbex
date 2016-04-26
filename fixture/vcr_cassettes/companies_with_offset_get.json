@@ -1,0 +1,39 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Authorization": "5upp3r-53cr3t-k3y"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://www.igdb.com/api/v1/companies?offset=25"
+    },
+    "response": {
+      "body": "{\"companies\":[{\"id\":8787,\"name\":\"1C Online Games\"},{\"id\":3121,\"name\":\"1C-SoftClub\"},{\"id\":9262,\"name\":\"1 Source Entertainment\"},{\"id\":1128,\"name\":\"1st Playable Productions\"},{\"id\":2910,\"name\":\"1-UP Studio\"},{\"id\":2295,\"name\":\"2013 Sony Computer Entertainment America LLC.\"},{\"id\":309,\"name\":\"2015\"},{\"id\":2097,\"name\":\"20th Century Fox Games\"},{\"id\":2877,\"name\":\"21 rocks\"},{\"id\":1042,\"name\":\"21st Century Entertainment\"},{\"id\":1531,\"name\":\"22Cans\"},{\"id\":4650,\"name\":\"23 Studios\"},{\"id\":8092,\"name\":\"24 Caret Games\"},{\"id\":9121,\"name\":\"251 Games\"},{\"id\":5652,\"name\":\"25th Edition\"},{\"id\":7915,\"name\":\"2 Chance Projects\"},{\"id\":8244,\"name\":\"2DArray\"},{\"id\":1698,\"name\":\"2 Dawn Studios\"},{\"id\":613,\"name\":\"2D Boy\"},{\"id\":4893,\"name\":\"2DEngine\"},{\"id\":7885,\"name\":\"2DEngine.com\"},{\"id\":3337,\"name\":\"2K Asia\"},{\"id\":2492,\"name\":\"2k Australia\"},{\"id\":649,\"name\":\"2K Boston\"},{\"id\":18,\"name\":\"2K China\"}]}",
+      "headers": {
+        "Server": "cloudflare-nginx",
+        "Date": "Mon, 25 Apr 2016 03:47:45 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d1f73096b78b381fbe6f4b25dc9068a551461556065; expires=Tue, 25-Apr-17 03:47:45 GMT; path=/; domain=.igdb.com; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"c34010bb61593bad64c6d51b1bac733c\"",
+        "Cache-Control": "must-revalidate, private, max-age=0",
+        "X-Request-Id": "18178eaa-61c1-4406-96bc-6bd17d3a32d7",
+        "X-Runtime": "0.033570",
+        "X-Rack-Cache": "miss",
+        "Vary": "Accept-Encoding",
+        "Via": "1.1 vegur",
+        "Strict-Transport-Security": "max-age=15552000; preload",
+        "CF-RAY": "298ed0c08fdf02b6-IAD"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

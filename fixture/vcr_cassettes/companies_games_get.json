@@ -1,0 +1,39 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Authorization": "5upp3r-53cr3t-k3y"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://www.igdb.com/api/v1/companies/104/games"
+    },
+    "response": {
+      "body": "{\"games\":[{\"id\":3978,\"name\":\"187 Ride or Die\",\"slug\":\"187-ride-or-die\",\"release_date\":\"2009-08-23\"},{\"id\":3305,\"name\":\"ABBA: You Can Dance\",\"slug\":\"abba-you-can-dance\",\"release_date\":\"2011-11-15\"},{\"id\":4657,\"name\":\"Academy of Champions: Soccer\",\"slug\":\"academy-of-champions-soccer\",\"release_date\":\"2009-11-03\"},{\"id\":6300,\"name\":\"Advance Guardian Heroes\",\"slug\":\"advance-guardian-heroes\",\"release_date\":\"2004-09-14\"},{\"id\":3436,\"name\":\"All Star Tennis '99\",\"slug\":\"all-star-tennis-99\",\"release_date\":\"1999-06-25\"},{\"id\":6302,\"name\":\"American Bass Challenge\",\"slug\":\"american-bass-challenge\",\"release_date\":\"2001-08-10\"},{\"id\":5722,\"name\":\"America's Army: Rise of a Soldier\",\"slug\":\"america-s-army-rise-of-a-soldier\",\"release_date\":\"2005-11-17\"},{\"id\":5482,\"name\":\"America's Army: True Soldiers\",\"slug\":\"america-s-army-true-soldiers\",\"release_date\":\"2007-11-15\"},{\"id\":5726,\"name\":\"AND 1 Streetball\",\"slug\":\"and-1-streetball\",\"release_date\":\"2006-06-06\"},{\"id\":1862,\"name\":\"Anne McCaffrey’s Freedom: First Resistance\",\"slug\":\"anne-mccaffrey-s-freedom-first-resistance\",\"release_date\":\"2000-12-14\"},{\"id\":662,\"name\":\"Anno 1404\",\"slug\":\"anno-1404\",\"release_date\":\"2009-06-23\"},{\"id\":8227,\"name\":\"Anno 1404: Venice\",\"slug\":\"anno-1404-venice\",\"release_date\":\"2010-02-26\"},{\"id\":8226,\"name\":\"Anno 1701: The Sunken Dragon\",\"slug\":\"anno-1701-the-sunken-dragon\",\"release_date\":\"2007-12-01\"},{\"id\":2959,\"name\":\"Anno 2070\",\"slug\":\"anno-2070\",\"release_date\":\"2011-11-17\"},{\"id\":8228,\"name\":\"Anno 2070: Deep Ocean\",\"slug\":\"anno-2070-deep-ocean\",\"release_date\":\"2012-10-04\"},{\"id\":11205,\"name\":\"Anno 2205\",\"slug\":\"anno-2205\",\"release_date\":\"2015-11-03\"},{\"id\":4795,\"name\":\"Anno: Create A New World\",\"slug\":\"anno-create-a-new-world\",\"release_date\":\"2009-05-22\"},{\"id\":6063,\"name\":\"Ape Escape 2\",\"slug\":\"ape-escape-2\",\"release_date\":\"2001-07-18\"},{\"id\":6065,\"name\":\"Ape Escape: Pumped and Primed\",\"slug\":\"ape-escape-pumped-and-primed\",\"release_date\":\"2004-07-01\"},{\"id\":5493,\"name\":\"Armored Core: For Answer\",\"slug\":\"armored-core-for-answer\",\"release_date\":\"2008-03-19\"},{\"id\":6746,\"name\":\"Asphalt 3D\",\"slug\":\"asphalt-3d\",\"release_date\":\"2011-03-10\"},{\"id\":128,\"name\":\"Assassin's Creed\",\"slug\":\"assassin-s-creed\",\"release_date\":\"2007-11-13\"},{\"id\":3775,\"name\":\"Assassin's Creed: Black Flag: Freedom Cry\",\"slug\":\"assassins-creed-black-flag-freedom-cry\",\"release_date\":\"2014-02-18\"},{\"id\":113,\"name\":\"Assassin's Creed: Brotherhood\",\"slug\":\"assassin-s-creed-brotherhood\",\"release_date\":\"2010-11-16\"},{\"id\":8216,\"name\":\"Assassin's Creed: Brotherhood: The Da Vinci disappearance\",\"slug\":\"assassins-creed-brotherhood-the-da-vinci-disappearance\",\"release_date\":\"2011-03-09\"}]}",
+      "headers": {
+        "Server": "cloudflare-nginx",
+        "Date": "Mon, 25 Apr 2016 04:02:06 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d9a4c7154ecbe3dfb5634856c18b174041461556926; expires=Tue, 25-Apr-17 04:02:06 GMT; path=/; domain=.igdb.com; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"4d0bf8c1c23049719c73b78ea44055ed\"",
+        "Cache-Control": "must-revalidate, private, max-age=0",
+        "X-Request-Id": "e9bd3980-e2d2-4928-8146-dcd38ed5fddd",
+        "X-Runtime": "0.137996",
+        "X-Rack-Cache": "miss",
+        "Vary": "Accept-Encoding",
+        "Via": "1.1 vegur",
+        "Strict-Transport-Security": "max-age=15552000; preload",
+        "CF-RAY": "298ee5c447a123a8-IAD"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

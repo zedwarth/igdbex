@@ -1,0 +1,39 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Authorization": "5upp3r-53cr3t-k3y"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://www.igdb.com/api/v1/companies/73"
+    },
+    "response": {
+      "body": "{\"company\":{\"id\":73,\"name\":\"Aspyr Media\",\"slug\":\"aspyr-media\",\"average_rating\":\"7.98654651654485\",\"founded_year\":1996,\"parent\":null,\"company_logo\":{\"url\":\"//res.cloudinary.com/igdb/image/upload/t_thumb/pobzcae4758zn2bz3yy1.png\",\"width\":521,\"height\":127}}}",
+      "headers": {
+        "Server": "cloudflare-nginx",
+        "Date": "Tue, 26 Apr 2016 01:09:22 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d16d16cd9b5afaaa60ae38cb918cbbe2c1461632962; expires=Wed, 26-Apr-17 01:09:22 GMT; path=/; domain=.igdb.com; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"23d9bf780c38f605602c29f781832793\"",
+        "Cache-Control": "must-revalidate, private, max-age=0",
+        "X-Request-Id": "1af4b8e8-075c-41c8-945a-ea2f2eea0fd5",
+        "X-Runtime": "0.032539",
+        "X-Rack-Cache": "miss",
+        "Vary": "Accept-Encoding",
+        "Via": "1.1 vegur",
+        "Strict-Transport-Security": "max-age=15552000; preload",
+        "CF-RAY": "2996261d7bdd0f21-IAD"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

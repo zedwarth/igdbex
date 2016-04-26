@@ -1,0 +1,39 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Authorization": "5upp3r-53cr3t-k3y"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://www.igdb.com/api/v1/companies/meta"
+    },
+    "response": {
+      "body": "{\"size\":9417}",
+      "headers": {
+        "Server": "cloudflare-nginx",
+        "Date": "Mon, 25 Apr 2016 03:47:45 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d1f73096b78b381fbe6f4b25dc9068a551461556065; expires=Tue, 25-Apr-17 03:47:45 GMT; path=/; domain=.igdb.com; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"cd83d67a0c8814fab5615792ac4d9783\"",
+        "Cache-Control": "must-revalidate, private, max-age=0",
+        "X-Request-Id": "efb93f75-6543-4211-a3ca-a3b42b50c38d",
+        "X-Runtime": "0.033438",
+        "X-Rack-Cache": "miss",
+        "Vary": "Accept-Encoding",
+        "Via": "1.1 vegur",
+        "Strict-Transport-Security": "max-age=15552000; preload",
+        "CF-RAY": "298ed0c2f02002b6-IAD"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

@@ -15,7 +15,7 @@ defmodule Igdbex.Games do
     games
   end
 
-  def games(query_params) do
+  def games(query_params) when query_params |> is_list do
     query_params
     |> Enum.map(&parse_query/1)
     |> Enum.reduce(fn(x, acc) -> acc <> x end)
